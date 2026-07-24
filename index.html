@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>情绪周期 · 知识库</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #0b0f1a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .hero { text-align: center; margin-bottom: 48px; }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f59e0b, #ef4444, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 6px;
+            margin-bottom: 12px;
+        }
+        .hero p { color: #64748b; font-size: 1rem; }
+        .hero .quote {
+            margin-top: 16px;
+            font-size: 0.85rem;
+            color: #475569;
+            font-style: italic;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 14px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 18px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            border: 1px solid rgba(255,255,255,0.06);
+            background: #111827;
+            color: #cbd5e1;
+        }
+        .btn:hover {
+            background: #1a2332;
+            border-color: rgba(245,158,11,0.3);
+            transform: translateY(-2px);
+            color: #f59e0b;
+        }
+        .btn .icon { font-size: 1.2rem; }
+        footer {
+            margin-top: 48px;
+            font-size: 0.75rem;
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>情 绪 周 期</h1>
+        <p>三位一体交易系统 · 知识库</p>
+        <div class="quote">"掌握市场之心，胜利接踵而至；心被市场掌握，失败连绵不绝。"</div>
+    </div>
+    <div class="grid">
+        <a href="concept.html" class="btn"><span class="icon">🎯</span> 核心理念</a>
+        <a href="cycle.html" class="btn"><span class="icon">🔄</span> 六态循环</a>
+        <a href="masters.html" class="btn"><span class="icon">📜</span> 养家心法</a>
+        <a href="structure.html" class="btn"><span class="icon">📐</span> 结构 ABCD</a>
+        <a href="operation.html" class="btn"><span class="icon">⚖️</span> 状态 × 策略</a>
+        <a href="framework.html" class="btn"><span class="icon">🏗️</span> 知识架构</a>
+        <a href="practice.html" class="btn"><span class="icon">📋</span> 实战流程</a>
+    </div>
+    <footer>基于群文件资料整理 · 仅供学习参考</footer>
+</body>
+</html>
